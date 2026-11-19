@@ -1,0 +1,376 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#202132" />
+    <meta
+      name="description"
+      content="Portfólio de desenvolvimento de software de Pedro Monteiro. Projetos, experiência e contato."
+    />
+    <title>Pedro Monteiro — Desenvolvedor de software</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+    <header class="site-header">
+      <nav class="nav container" aria-label="Navegação principal">
+        <a class="brand" href="#inicio" aria-label="Pedro Monteiro, início"
+          >&lt;Pedro Monteiro /&gt;</a
+        >
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="nav-links"
+        >
+          <span class="sr-only">Abrir menu</span>
+          <span></span><span></span><span></span>
+        </button>
+        <div class="nav-links" id="nav-links">
+          <a href="#experiencia">Experiência</a>
+          <a href="#tecnologias">Tecnologias</a>
+          <a href="#projetos">Projetos</a>
+          <a href="#contato">Contato</a>
+          <a
+            class="nav-github"
+            href="https://github.com/montteiropedro"
+            target="_blank"
+            rel="noreferrer"
+            >GitHub <span aria-hidden="true">↗</span></a
+          >
+        </div>
+      </nav>
+    </header>
+
+    <main id="conteudo">
+      <section class="hero container" id="inicio" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow">
+            PORTFÓLIO <span aria-hidden="true">/</span> DESENVOLVIMENTO DE
+            SOFTWARE
+          </p>
+          <p class="prompt">$ whoami</p>
+          <h1 id="hero-title">Olá, eu sou<br /><span>Pedro Monteiro</span></h1>
+          <p class="hero-role">Desenvolvedor de software</p>
+          <p class="hero-intro">
+            Gosto de transformar ideias em produtos web úteis, bem construídos e
+            fáceis de usar. Trabalho principalmente com Ruby on Rails e
+            tecnologias web.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projetos"
+              >Ver projetos <span aria-hidden="true">↓</span></a
+            >
+            <a class="button button-secondary" href="#contato"
+              >Fale comigo <span aria-hidden="true">↗</span></a
+            >
+          </div>
+        </div>
+
+        <div class="terminal" aria-label="Apresentação em formato de terminal">
+          <div class="terminal-bar">
+            <div class="window-dots" aria-hidden="true">
+              <i></i><i></i><i></i>
+            </div>
+            <span>~/portfolio — bash</span>
+          </div>
+          <div class="terminal-body">
+            <p class="prompt">$ cat about.txt</p>
+            <p class="terminal-output">
+              Construindo para a web desde 2023.<br />
+              <strong>Foco atual:</strong>
+              aplicações com Rails,<br />interfaces acessíveis e boas APIs.
+            </p>
+            <p class="prompt">$ git status</p>
+            <p class="terminal-status">
+              <span class="terminal-pulse">
+                <span style="--i: 0"></span>
+                <span style="--i: 1"></span>
+                <span style="--i: 2"></span>
+              </span>
+              disponível para oportunidades
+            </p>
+            <p class="prompt">$ ls links/</p>
+            <p class="terminal-links">
+              <a
+                href="https://github.com/montteiropedro"
+                target="_blank"
+                rel="noreferrer"
+                >github</a
+              ><a
+                href="https://linkedin.com/in/montteiropedro"
+                target="_blank"
+                rel="noreferrer"
+                >linkedin</a
+              ><a href="mailto:montteiropedro@gmail.com">email</a>
+            </p>
+            <span class="cursor" aria-hidden="true"></span>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="section container"
+        id="experiencia"
+        aria-labelledby="experience-title"
+      >
+        <div class="section-heading">
+          <p class="section-index">01 / EXPERIÊNCIA PROFISSIONAL</p>
+          <span></span>
+        </div>
+        <div class="experience-layout">
+          <div class="experience-tabs" role="tablist" aria-label="Empresas">
+            <button
+              class="experience-tab is-active"
+              id="tab-current"
+              type="button"
+              role="tab"
+              aria-selected="true"
+              aria-controls="experience-panel"
+              data-experience="current"
+            >
+              Vortigo Digital
+            </button>
+            <button
+              class="experience-tab"
+              id="tab-previous"
+              type="button"
+              role="tab"
+              aria-selected="false"
+              aria-controls="experience-panel"
+              data-experience="previous"
+              tabindex="-1"
+            >
+              Rebase
+            </button>
+          </div>
+          <article
+            class="experience-panel"
+            id="experience-panel"
+            role="tabpanel"
+            aria-labelledby="tab-current"
+            tabindex="0"
+          >
+            <h2 id="experience-title">
+              Desenvolvedor de Software Pleno II <span>@ Vortigo Digital</span>
+            </h2>
+            <p class="experience-date">06/2025 — 08/2026</p>
+            <ul class="detail-list">
+              <li>
+                Mantive minha atuação no projeto Saúde Simples, na OM30, após a
+                transição da operação da Rebase para a Vortigo Digital,
+                garantindo a continuidade das entregas e a preservação do
+                conhecimento do produto.
+              </li>
+              <li>
+                Atuei na manutenção e evolução de aplicações Ruby on Rails,
+                investigando, diagnosticando e corrigindo problemas
+                identificados nos ambientes de homologação e produção.
+              </li>
+              <li>
+                Contribuí para reduzir significativamente os chamados
+                relacionados a bugs por meio da análise proativa e da resolução
+                ágil de defeitos.
+              </li>
+              <li>
+                Realizei manutenção e ajustes em relatórios do JasperServer,
+                incluindo alterações de layout, correções visuais e adequações
+                de consultas para atender às necessidades do negócio.
+              </li>
+            </ul>
+            <div class="tag-list" aria-label="Tecnologias usadas">
+              <span>Ruby</span>
+              <span>Ruby on Rails</span>
+              <span>JavaScript</span>
+              <span>CoffeeScript</span>
+              <span>JQuery</span>
+              <span>Haml</span>
+              <span>Vue</span>
+              <span>PostgreSQL</span>
+              <span>Docker</span>
+              <span>JasperServer</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section
+        class="section container"
+        id="tecnologias"
+        aria-labelledby="skills-title"
+      >
+        <div class="section-heading">
+          <p class="section-index">02 / TECNOLOGIAS</p>
+          <span></span>
+        </div>
+        <h2 class="section-title" id="skills-title">
+          Ferramentas que uso para tirar ideias do papel.
+        </h2>
+        <ul class="skills-list" aria-label="Habilidades">
+          <li>Ruby</li>
+          <li>Ruby on Rails</li>
+          <li>JavaScript</li>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Tailwind CSS</li>
+          <li>Docker</li>
+          <li>PostgreSQL</li>
+        </ul>
+      </section>
+
+      <section
+        class="section container"
+        id="projetos"
+        aria-labelledby="projects-title"
+      >
+        <div class="section-heading">
+          <p class="section-index">03 / PROJETOS</p>
+          <span></span>
+        </div>
+        <div class="section-title-row">
+          <h2 class="section-title" id="projects-title">
+            Algumas coisas que construí.
+          </h2>
+          <a
+            class="text-link"
+            href="https://github.com/montteiropedro"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Todos no GitHub <span aria-hidden="true">↗</span>
+          </a>
+        </div>
+        <div class="projects-grid">
+          <article class="project-card">
+            <div class="project-preview">
+              <span>01 / mediavault-backend</span>
+              <code>rails new</code>
+              <span class="preview-mark" aria-hidden="true">&lt;/&gt;</span>
+            </div>
+            <h3>MediaVault (Backend)</h3>
+            <p>
+              O MediaVault Backend é uma API Rails que indexa bibliotecas de
+              mídia locais, processa vídeo, áudio e legendas para streaming e
+              acompanha o progresso de reprodução.<br /><br />
+              <strong>Depende da mediavault-frontend</strong>
+            </p>
+            <ul class="project-tags">
+              <li>Rails</li>
+              <li>PostgreSQL</li>
+              <li>Docker</li>
+            </ul>
+            <div class="project-links">
+              <a
+                href="https://github.com/montteiropedro/mediavault-backend"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Código ↗
+              </a>
+              <!--<a href="#" aria-label="Adicionar link para demonstração">
+                Demo ↗
+              </a>-->
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="project-preview">
+              <span>02 / mediavault-frontend</span>
+              <code>npm create vite@latest</code>
+              <span class="preview-mark" aria-hidden="true">{ }</span>
+            </div>
+            <h3>MediaVault (Frontend)</h3>
+            <p>
+              O MediaVault Frontend é uma aplicação web responsiva para navegar
+              e assistir a filmes e séries, com seleção de faixas de áudio e
+              legendas e acompanhamento do progresso de reprodução.<br /><br />
+              <strong>Depende da mediavault-backend</strong>
+            </p>
+            <ul class="project-tags">
+              <li>React</li>
+              <li>TypeScript</li>
+              <li>Tailwind CSS</li>
+              <li>Vite</li>
+              <li>Docker</li>
+            </ul>
+            <div class="project-links">
+              <a
+                href="https://github.com/montteiropedro/mediavault-frontend"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Código ↗
+              </a>
+              <!--<a href="#" aria-label="Adicionar link para demonstração">
+                Demo ↗
+              </a>-->
+            </div>
+          </article>
+          <!--<article class="project-card">
+            <div class="project-preview">
+              <span>03 / Placeholder</span><code>git log --oneline</code
+              ><span class="preview-mark" aria-hidden="true">✳</span>
+            </div>
+            <h3>Placeholder</h3>
+            <p>Uma contribuição, experimento técnico ou projeto open source.</p>
+            <ul class="project-tags">
+              <li>Rails</li>
+              <li>Tailwind CSS</li>
+              <li>HTML</li>
+            </ul>
+            <div class="project-links">
+              <a
+                href="https://github.com/montteiropedro"
+                target="_blank"
+                rel="noreferrer"
+                >Código ↗</a
+              ><a href="#" aria-label="Adicionar link para demonstração"
+                >Demo ↗</a
+              >
+            </div>
+          </article>-->
+        </div>
+      </section>
+
+      <section class="closing-grid container" id="contato">
+        <article class="closing-card github-card">
+          <p class="section-index">04 / GITHUB</p>
+          <h2>Acompanhe o que estou criando.</h2>
+          <p>Repositórios, experimentos e projetos open source.</p>
+          <a
+            class="button button-primary"
+            href="https://github.com/montteiropedro"
+            target="_blank"
+            rel="noreferrer"
+            >github.com/montteiropedro <span aria-hidden="true">↗</span></a
+          >
+        </article>
+        <article class="closing-card contact-card">
+          <p class="section-index">05 / CONTATO</p>
+          <h2>Vamos conversar?</h2>
+          <p>Estou aberto a boas conversas e oportunidades.</p>
+          <div class="contact-links">
+            <a href="mailto:montteiropedro@gmail.com">
+              <span aria-hidden="true">✉</span> montteiropedro@gmail.com
+            </a>
+            <a
+              href="https://linkedin.com/in/montteiropedro"
+              target="_blank"
+              rel="noreferrer"
+              ><span aria-hidden="true">in ↗</span> LinkedIn</a
+            >
+          </div>
+        </article>
+      </section>
+    </main>
+
+    <footer class="site-footer container">
+      <p>
+        Feito com curiosidade e café · © <span id="year">2026</span> Pedro
+        Monteiro
+      </p>
+      <a href="#inicio">Voltar ao topo ↑</a>
+    </footer>
+  </body>
+</html>
